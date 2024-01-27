@@ -1,0 +1,15 @@
+.positive, .negative {
+    border-radius: 2px;
+}
+
+.positive {
+    color: white;
+    background-color: black;
+    border-color: white;
+}
+
+.negative {
+    color: black;
+    background-color: yellow;
+    border-color: black;
+}
