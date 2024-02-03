@@ -9,6 +9,9 @@ body {
 
 img {
   width: 600px;
+  padding-top: 200px;
+  display: flex;
+  margin: auto auto;
 }
 
 button {
@@ -18,10 +21,52 @@ button {
   background: #eee;
 }
 
+.buttons {
+  display: flex;
+  width: full;
+  justify-content: center;
+  gap: 8px;
+}
+
 input {
   border: 1px solid #ddd;
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+  display: flex;
+  margin: auto auto;
+}
+
+.left-links {
+  display: flex;
+  gap: 8px;
+  list-style-type: none;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.right-links {
+  display: flex;
+  gap: 8px;
+  list-style-type: none;
+  margin-right: 8px;
+  padding-right: 20px;
+  /* padding: 0 8px 0 0; */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.footer {
+  background-color: lightgray;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  justify-content: space-between;
+  padding: 8px;
 }
